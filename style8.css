@@ -1,0 +1,29 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.translated{
+
+    transform: perspective(10px) translateZ(-10px);
+}
+
+.scaled{
+    margin: auto;
+    transform: perspective(350px) scaleZ(-10) rotateY(15deg);
+}
