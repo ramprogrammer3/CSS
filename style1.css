@@ -1,0 +1,40 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.box{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 10px;
+}
+.box1{
+    background-color: violet;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 10px;
+}
+.box2{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.box:hover{
+    background-color: yellow;
+    transition: all;
+    transition-duration: 800ms;
+}
