@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.box{
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    font-size: 1.5rem;
+    min-height: 300px;
+    min-width: 300px;
+    max-width: 400px;
+    max-height: 400px;
+    overflow: hidden;
+    border: 1px solid black;
+    color: white;
+    overflow: scroll;
+}
+
+.div1{
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 30px;
+    width: 200px;
+    min-height: 100px;
+
+}
