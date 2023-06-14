@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    /* margin: auto; */
+    margin-top: 20px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    background-color: orange;
+    display: inline-block;
+}
+
+#org {
+    background-color: orange;
+}
+
+#white {
+    background-color: white;
+}
+
+#green {
+    background-color: green;
+}
+
+.text {
+    background-color: lightblue;
+    color: white;
+    background-color: blue;
+    padding: 20px;
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+
+    margin-top: 20px;
+}
+
+.text:hover {
+    background-color: red;
+    transition: all;
+    transition-duration: 800ms;
+}
