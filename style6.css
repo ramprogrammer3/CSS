@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.box {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    transform: translate(100px, 100px);
+    transform: translateX(200px);
+    transform: translateY(300px);
+    transform: rotate(-45deg);
+    margin-top: 300px;
+    margin: auto;
+    transform: scale(1, 3);
+
+}
