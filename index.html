@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selector </title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        p{
+            color: red;
+            font-size: larger;
+        }
+
+        table{
+            border: 10px solid black;
+        }
+
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 1px solid red;
+            display: inline-block;
+            margin: 5px;
+        }
+
+        .small{
+            font-size: small;
+        }
+
+        .larger{
+            font-size: larger;
+        }
+
+        #box{
+            width: 300px;
+            height: 300px;
+            background-color: aqua;
+            margin: auto;
+        }
+
+        #box:hover{
+            background-color: red;
+            transition: all;
+            transition-duration: 800ms;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CSS selector </h1>
+
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, accusantium.
+    </p>
+    <h1>This is my first heading </h1>
+    <h2>This is my second heading</h2>
+    <p>this is another paragraph </p>
+
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+
+    <h1 class="small">Lorem ipsum dolor sit amet.</h1>
+    <h2 class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h2>
+    <h3 class="small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, excepturi.</h3>
+
+    <h4 class="larger">abcd</h4>
+    <h5 class="larger">abcd</h5>
+    <h6 class="larger">abcd</h6>
+
+
+    <div id="box">
+
+    </div>
+
+
+ 
+
+    
+</body>
+</html>
