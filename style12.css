@@ -1,0 +1,26 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --dark-red : #981a2c;
+}
+
+.container{
+    border: 1px solid brown;
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    background-color: var(--dark-red);
+}
+
+
+.box{
+    border: 2xp solid green;
+    background-color: aqua;
+    color: chocolate;
+    color: var(--dark-red);
+}
