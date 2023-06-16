@@ -1,0 +1,36 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.container{
+    border: 3px solid red;
+    background-color: green;
+    height: 300px;
+    width: 300px;
+    display: flex;
+}
+
+.box{
+    border: 2px solid orange;
+    background-color: aqua;
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    /* transition: 1s; */
+    transition: all 10s;
+
+}
+
+
+.box:hover{
+    background-color: brown;
+    width: 300px;
+    transform: rotate(360deg);
+}
+
+
